@@ -2,7 +2,7 @@
 
 Todos los GameObject tienen ligada una instancia de la clase Transform (accesible desde la propiedad transform). Los métodos de esta clase nos permiten realizar transformaciones al sistema de referencia de un objeto: **Translate** (para trasladar), **Rotate** (para rotar) y la propiedad **localScale** que podemos modificar para cambiar la escala local de un objeto.
 
-2. ¿Cómo duplicarías el tamaño de un objeto en en un script?.
+2. ¿Cómo duplicarías el tamaño de un objeto en un script?.
 
 ```cs
 transform.localScale *= 2
