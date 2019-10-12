@@ -28,7 +28,7 @@ transform.translate(-Vector3.one);
 ```
 6. Rota un objeto alrededor del eje Y 30ª y desplázalo 3 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado que en 4?
 
-No obtenemos el mismo resultado, porque al trasladar los ejes sin aplicarles ninguna transformación, estos se desplazan 3 metros respecto a la posición inicial del objeto, pero si los rotamos primero se desplazarán 3 metros respecto a la posición de los ejes resultante de la rotación, que no es la misma que la original.
+No obtenemos el mismo resultado, porque si trasladamos el objeto primero este desplazará 3 metros en sus 3 componentes (x, y, z), pero en cambio si antes rotamos los 30º respecto al eje Y, la dirección de los ejes X y Z cambiará 30º por lo que la posición del objeto cambia en *x* y *z*, mientras que *y* permanece constante ya que la dirección del eje Y no varía.
 
 7. Como puedes obtener la distancia al plano cerca del volumen de vista
 
