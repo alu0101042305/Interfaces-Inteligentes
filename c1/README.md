@@ -40,14 +40,17 @@ Podemos realizar una proyección de un punto en el mundo 3D al espacio 2D formad
 9.Investiga qué son los quaternion.
 
 Los quaternion (cuaterniones en español) son un cojunto numérico que extiende a los reales en el que cada elemento es un ℝ-espacio vectorial de dimensión 4 formado por los componentes: 1, i, j y k; siendo los 3 últimos imaginarios.
-10. Analiza la documentación de la cámara en Unity 3D: https://docs.unity3d.com/es/current/Manual/CamerasOverview.htmlhttps://docs.unity3d.com/es/current/Manual/class-Camera.html e identifica los conceptos explicados respecto a la cámara.
+
+10. Analiza la documentación de la cámara en Unity 3D: [Link 1](https://docs.unity3d.com/es/current/Manual/CamerasOverview.html) [Link 2](https://docs.unity3d.com/es/current/Manual/class-Camera.html) e identifica los conceptos explicados respecto a la cámara.
 Los conceptos explicados respecto a la cámara son:
     *  
 11. ¿Como puedes averiguar la matriz de proyección que se ha usado para proyectar la escena al último frame renderizado?.
 
 Accesible en la propiedad **Camera.previousViewProjectionMatrix**.
+
 12.¿Cómo puedes obtener la matriz de transformación entre el sistema de coordenadas local y el mundial?.
 
 Accesible en la propiedad **Transform.localToWorldMatrix**.
+
 13. ¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: 
 Position (3, 1, 1), Rotation (45, 0, 45)
