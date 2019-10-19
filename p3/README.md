@@ -6,7 +6,7 @@ El objetivo de esta práctica es aprender a usar las físicas de Unity así como
 * Varios cilindros que cambien su color cuando colisionan contra ellos.
 
 Los scripts implementados fueron:
-* [CollisionColor](/p3/CollisionColor.cs) para cambiar el color según lso eventos de colisión
+* [CollisionColor](/p3/CollisionColor.cs) para cambiar el color según los eventos de colisión
 * [CollisionCount](/p3/CollisionCount.cs) para contar colisiones (incrementa una variable estática).
 * [Movement](/p3/Movement.cs) implementa el movimiento de Ethan.
 * [RandomMovement](/p3/RandomMovement.cs) implementa el movimiento de la esfera.
