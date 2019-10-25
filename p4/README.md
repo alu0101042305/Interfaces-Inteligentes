@@ -17,4 +17,4 @@ Los scripts implementados para esta práctica son:
 * [SphereBehaviour](p4/SphereBehaviour.cs) dispara el evento de colisión con una esfera y además escucha ese mismo evento, cambiando de color el material
 cuando se dispara.
 
-![](p4/gif.gif)
+![gif](p4/gif.gif)
