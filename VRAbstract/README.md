@@ -37,6 +37,7 @@ tenga en la escena un objeto, más cerca del usuario debería estar, siendo los 
 ## Cardboard Design Lab
 
 Algunos buenos diseños de VR que implementa Cardboard Design Lab son:
+
 * **Zona de Confort**. Cada vez que se inicia una escena nueva la vista es centrada en la zona de confort.
 * No tiene mensajes estáticos, sino que todos acompañan a la escena y cuando la aplicación no tiene claro si el usuario está en una posición confortable (ej: al iniciar la aplicación), crea cuatro mensajes idénticos envolviendo el entorno en un cuadrado, de manera que el usuario tenga que realizar el menor giro posible.
 * Los cambios de escena o la aparición de objetos no son instantáneos, sino que aparecen de manera gradual desvaneciéndose.
