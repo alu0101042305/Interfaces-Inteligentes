@@ -33,3 +33,12 @@ de lo posible la rotación de la cabeza del usuario y por ello la vista del usua
 
 En la **zona de confort** debe estár concentrada la atención del usuario así como los objetos interactivos, de manera que cuanto más peso 
 tenga en la escena un objeto, más cerca del usuario debería estar, siendo los objetos más alejados parte del fondo de la escena.
+
+## Cardboard Design Lab
+
+Algunos buenos diseños de VR que implementa Cardboard Design Lab son:
+* **Zona de Confort**. Cada vez que se inicia una escena nueva la vista es centrada en la zona de confort.
+* No tiene mensajes estáticos, sino que todos acompañan a la escena y cuando la aplicación no tiene claro si el usuario está en una posición confortable (ej: al iniciar la aplicación), crea cuatro mensajes idénticos envolviendo el entorno en un cuadrado, de manera que el usuario tenga que realizar el menor giro posible.
+* Los cambios de escena o la aparición de objetos no son instantáneos, sino que aparecen de manera gradual desvaneciéndose.
+* Pinta una retícula para que el usuario sea consciente de donde está el centro de la vista en todo momento y pueda reaccionar en consecuencia.
+* Usa sonidos como un grado de inmersión más en la realidad virtual.
