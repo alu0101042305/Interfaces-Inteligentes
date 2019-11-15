@@ -7,7 +7,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("A")) {
+        if (collision.gameObject.CompareTag("B")) {
             foreach (GameObject cylinder in GameObject.FindGameObjectsWithTag("C"))
             {
                 cylinder.transform.Translate(Vector3.one * 0.1f * cylinder.GetComponent<CylinderBehabiour>().poder);
